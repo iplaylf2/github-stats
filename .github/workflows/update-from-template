@@ -1,0 +1,14 @@
+name: Update from template
+
+on: workflow_dispatch
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: sebbo2002/action-template-updater@v5.0.1
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        template: jstrieb/github-stats/master
+        assignees: 
+          - iplaylf2
