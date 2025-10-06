@@ -10,5 +10,4 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         template: jstrieb/github-stats/master
-        assignees: 
-          - iplaylf2
+        assignees: iplaylf2
