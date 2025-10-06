@@ -8,6 +8,6 @@ jobs:
     steps:
     - uses: sebbo2002/action-template-updater@v5.0.1
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.UPDATE_TOKEN }}
         template: jstrieb/github-stats/master
         assignees: iplaylf2
